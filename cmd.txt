@@ -1,7 +1,20 @@
 
 git init
 git add .
+
+# every time commit --
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/JubairAhammedJubu/My-Course-Repo.git
+git push -u origin main
+
+# for check git email user --
+git config --global --list
+
+# for check origin location --
+git remote -v
+
+#for modified file save --
+git add .
+git commit -m "changes sentence commit"
 git push -u origin main
