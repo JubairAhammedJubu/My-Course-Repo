@@ -17,4 +17,4 @@ git remote -v
 #for modified file save --
 git add .
 git commit -m "changes sentence commit"
-git push -u origin main
+git push
