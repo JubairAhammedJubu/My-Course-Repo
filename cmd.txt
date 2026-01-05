@@ -14,6 +14,16 @@ git config --global --list
 # for check origin location --
 git remote -v
 
+# show git branch
+git branch
+
+# master to main branch
+git branch -m master main
+git push -u origin main
+
+# By default, older Git installations still use master as the default branch name when you create a new repository locally. Set main as the default branch for ALL future repos -- 
+git config --global init.defaultBranch main
+
 #for modified file save --
 git add .
 git commit -m "changes sentence commit"
