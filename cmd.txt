@@ -23,6 +23,7 @@ git push -u origin main
 
 # By default, older Git installations still use master as the default branch name when you create a new repository locally. Set main as the default branch for ALL future repos -- 
 git config --global init.defaultBranch main
+Verify it worked --  git config --global --get init.defaultBranch
 
 #for modified file save --
 git add .
